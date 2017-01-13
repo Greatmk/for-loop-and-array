@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    	<script>
+    		
+    		//1 求1-100之间所有数的和、平均值
+    		
+    		var sum = 0 ;
+
+    		for (var i = 1; i <= 100; i++) {
+    			
+    			sum += i ;
+    		}
+
+    		console.log(sum);
+    		console.log(sum/100);
+
+
+    		 //2 求1-100之间所有数的乘积
+    		 var product = 1;
+    		 for( var i=1; i<=100; i++){
+
+    		 	product *= i ;
+    		 }
+
+    		 console.log(product);
+
+    		 //3 计算1-100之间能3整除的数的和 
+    		 var num = 0;
+
+    		 for(var i = 0; i<=100; i++){
+    		 	if(i % 3 == 0){
+
+    		 		num += i;
+    		 	}
+    		 }
+    		 console.log(num);
+
+    		  //4 计算1-100之间不能被7整除的数的和  
+    		  
+    		  var sum = 0;
+    		  for(var i =0; i<=100; i++){
+
+    		  		if( i % 7 == 0){
+    		  			
+    		  		}else{
+    		  			sum += i;
+    		  		}
+    		  }
+    		  console.log(sum);
+
+
+
+
+
+
+    	</script>
+    </body>
+</html>
